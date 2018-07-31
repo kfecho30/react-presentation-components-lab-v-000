@@ -7,4 +7,12 @@ export default class SimpleComponent extends React.Component {
       mood: 'happy',
     }
   }
+
+  render(){
+    return(
+      <div>
+        {this.state.mood}
+      </div>
+    )
+  }
 }
