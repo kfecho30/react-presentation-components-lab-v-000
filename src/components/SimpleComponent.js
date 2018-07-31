@@ -8,6 +8,10 @@ export default class SimpleComponent extends React.Component {
     }
   }
 
+  handleClick = () =>{
+
+  }
+  
   render(){
     return(
       <div>
